@@ -129,12 +129,11 @@ class Ball(Sprite):
             self.game.bat_r.lives -= 1
             self.game.new_ball()
             self.kill()
-            self.game.paused = not self.game.paused
-            
-            
+            self.game.paused = not self.game.paused       
             
     def draw(self):
         self.screen.blit(self.image, self.rect)
+
 
 class Game(object):
 
