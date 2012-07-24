@@ -85,7 +85,6 @@ class MsgBoard(object):
         self.screen.blit(text_sf, text_rect)
         
         
-    
 if __name__ == '__main__':
     pygame.init()
     
@@ -107,9 +106,6 @@ if __name__ == '__main__':
             if event.type == pygame.QUIT:
                 sys.exit()
                 
-
         b1.draw()
-        
         score.draw()
-
         pygame.display.flip()
