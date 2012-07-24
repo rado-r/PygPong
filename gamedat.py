@@ -242,8 +242,6 @@ class Game(object):
                 pygame.display.flip()
                 
                         
-
-            
 """
 if __name__ == '__main__':
     SCREEN_WIDTH = 640
